@@ -12370,10 +12370,6 @@ p {
   visibility: visible;
 }
 
-.button-website {
-  
-}
-
 /* blog wrapper */
 .blog-card {
   display: -webkit-box;
@@ -12861,5 +12857,19 @@ pre .code {
 
   .discord-button i {
     font-size: 40px;
+  }
+}
+
+@media (max-width: 769px) {
+  .btn-rounded {
+    width: 130px;
+    font-size: 12px;
+    padding: 2px 5px;
+  }
+  .header .header-content .header-title {
+    font-size: calc(20px + (120 - 40) * ((100vw - 300px) / (1600 - 300)));
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: inherit;
   }
 }
